@@ -11,6 +11,6 @@ cp -r ./venv/lib/python3.10/site-packages/* target
 
 # Zip it.
 cd target
-rm -rf ./boto* ./PIL
+rm -rf ./boto* ./PIL ./mysqlclient ./MySQLdb
 zip -r ../lambda.zip .
 rm -rf ../target
